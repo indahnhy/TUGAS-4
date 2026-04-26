@@ -48,4 +48,4 @@ Route::get('/hasil', function () {
     return view('hasil-ujian', ['nilai' => 70]);
 });
 
-Route::view('/home-view', 'home');
+Route::get('/home-view', [PostController::class, 'home']);
