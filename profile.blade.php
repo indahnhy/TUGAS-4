@@ -6,3 +6,10 @@
     <p>Email: {{ $email }}</p>
     <p>Alamat: {{ $alamat }}</p>
 @endsection
+
+@push('script')
+<script>
+    console.log('Halaman Profile dibuka');
+    alert('Selamat datang di halam profile');
+</script>
+@endpush
