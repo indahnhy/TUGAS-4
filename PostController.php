@@ -94,4 +94,8 @@ public function profile()
         'alamat' => 'Lombok'
     ]);
 }
+    public function home()
+{
+    return view('home');
+}
 }
